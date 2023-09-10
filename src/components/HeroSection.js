@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
+import photo from "../images/hero.jpg";
 
 function HeroSection({ myData }) {
     const { name } = myData;
@@ -24,7 +25,7 @@ function HeroSection({ myData }) {
                     </div>
                     <div className='hero-section-img'>
                         <figure>
-                            <img src='./images/newLOGO.png' alt="hero-img" />
+                            <img src={photo} alt="hero-img" />
                         </figure>
                     </div>
                 </div>
@@ -37,10 +38,10 @@ const Wrapper = styled.section`
   padding: 12rem 0;
 
   img {
-    border-radius:20px
+    border-radius:20px;
 
-    min-width: 10rem;
-    height: 10rem;
+    min-width: 20rem;
+    height: 35rem;
   }
 
   .hero-section-data {
