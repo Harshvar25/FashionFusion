@@ -42,7 +42,7 @@ function App() {
   // hello world
   return (
     <ThemeProvider theme={theme}>
-      <Router basename="/FashionFusion">
+      <Router>
         <GlobalStyle />
         <Header />
         <Routes>
