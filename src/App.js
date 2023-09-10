@@ -44,7 +44,7 @@ function App() {
       <Router basename="/FashionFusion">
         <GlobalStyle />
         <Header />
-        <Routes basename="/FashionFusion">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
