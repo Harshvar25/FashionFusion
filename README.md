@@ -11,5 +11,6 @@ One of the most difficult parts of the project was implementing effective produc
 
 There was one more challenge infront of me, After deploying the app on github the herosection image and company logo disappeared and while I was trying to resolve it I did some unnecessary changes and ultimately had to delete and create a new repository and couldn't deploy it on github but I it can be downloaded and run locally in the system.
 
-
+Figma link is provided below:
+https://www.figma.com/file/uD1heEeG9pSijmgIoo2RzS/Untitled?type=design&node-id=0%3A1&mode=design&t=Qr0GcIb2kfDEqnnW-1
 
