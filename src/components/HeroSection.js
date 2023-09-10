@@ -24,7 +24,7 @@ function HeroSection({ myData }) {
                     </div>
                     <div className='hero-section-img'>
                         <figure>
-                            <img src='./images/hero.JPG' />
+                            <img src='./images/hero.JPG' alt="hero-img" />
                         </figure>
                     </div>
                 </div>
