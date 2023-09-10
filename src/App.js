@@ -41,7 +41,7 @@ function App() {
   };
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/FashionFusion">
         <GlobalStyle />
         <Header />
         <Routes>
