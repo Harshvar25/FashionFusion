@@ -24,7 +24,7 @@ function HeroSection({ myData }) {
                     </div>
                     <div className='hero-section-img'>
                         <figure>
-                            <img src='images/hero.jpg' alt='hero-img' className='img-style' />
+                            <img src='https://github.com/Harshvar25/FashionFusion/blob/master/public/images/hero.jpg' alt='hero-img' className='img-style' />
                         </figure>
                     </div>
                 </div>
