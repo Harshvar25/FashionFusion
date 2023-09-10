@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { Button } from '../styles/Button';
-import photo from "../images/newLOGO.png";
+import photo from "../images/hero.jpg";
 
 function HeroSection({ myData }) {
     const { name } = myData;
