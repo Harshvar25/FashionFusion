@@ -87,6 +87,34 @@ const Wrapper = styled.section`
       padding: 10px;
     }
   }
+  @media (max-width: ${({ theme }) => theme.media.mobile}){
+    sorting-list--grid{
+      justify-content:space-between;
+    }
+    .product-data{
+      display:none;
+    }
+    .sort-selection--style{
+      border-radius:10px;
+    }
+  }
+  @media (max-width: ${({ theme }) => theme.media.tab}){
+    sorting-list--grid{
+      justify-content:space-between;
+    }
+    .product-data{
+      display:none;
+    }
+    .sort-selection--style{
+      border-radius:10px;
+      margin-right:10rem;
+    }
+    .sort-selection{
+      display:flex;
+      justify-content:space-around;
+      
+    }
+  }
 `;
 
 export default Sort;

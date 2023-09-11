@@ -118,6 +118,26 @@ const Wrapper = styled.section`
       color: #fff;
     }
   }
+  @media (max-width: ${({ theme }) => theme.media.mobile}){
+    padding:0;
+    margin:0;
+
+    .container{
+      width:100%;
+      display:flex;
+      flex-direction:column;
+      margin:10rem 0;
+          }
+    .card{
+      border-radius:10px;
+      width:100%;
+      margin:0;
+      .card-data {
+      padding: 2rem;
+    }
+    }
+  }
+
 `;
 
 export default ListView;

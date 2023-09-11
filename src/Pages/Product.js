@@ -57,6 +57,10 @@ figure{
     .grid-filter-column {
       grid-template-columns: 1fr;
     }
+    .card{
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    }
   }
 `;
 

@@ -38,6 +38,15 @@ const Wrapper = styled.section`
       margin:5rem;
     }
   }
+  @media (max-width: ${({ theme }) => theme.media.tab}) {
+    .grid-filter-column {
+      grid-template-columns: 1fr;
+      gap:10px
+    }
+    .container{
+      margin:3rem;
+    }
+  }
 `;
 
 export default Products;
