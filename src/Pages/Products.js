@@ -34,6 +34,9 @@ const Wrapper = styled.section`
     .grid-filter-column {
       grid-template-columns: 1fr;
     }
+    .container{
+      margin:5rem;
+    }
   }
 `;
 

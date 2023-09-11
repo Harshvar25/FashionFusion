@@ -135,6 +135,8 @@ const Wrapper = styled.section`
       margin: 4.8rem auto;
       transform: translateY(0%);
       text-align: center;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
 
       .grid div:last-child {
         justify-self: center;
